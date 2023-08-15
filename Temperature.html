@@ -1,0 +1,57 @@
+<!DOCKTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel=""stylesheet" href="Temperature.css">
+
+    <title>Temperature Converter</title>
+</head>
+<body>
+
+  <div class="temp_calculator">
+  <h4 class="title">temperature converter</h4>
+    <form action="" name="form">
+    
+      
+        <div class="calculator_input_from">
+          <label for="">From:</label>
+          <select name="input" id="input">
+            <option value="celsius" >Celsius (°C)</option>
+            <option value="fahrenheit" >Fahrenheit (°F)</option>
+            <option value="kelvin" >Kelvin (K)</option>
+          </select>
+        </div>
+        <div class="calculator_input_to">
+          <label for="">To:</label>
+          <select name="output" id="output">
+            <option value="celsius" >Celsius (°C)</option>
+            <option value="fahrenheit" >Fahrenheit (°F)</option>
+            <option value="kelvin" >Kelvin (K)</option>
+          </select>
+        </div> 
+  
+  <div class="temp_calculator_inputs">
+        <div class="calculator_value">
+          <label for="">Value to convert:</label>
+          <input type="number" placeholder="0.00" name="value" id="input_value">
+        </div>
+
+
+       
+      </div>
+  
+      <button style="background: tomato ;border-color: crimson;" type="button" id="clear" class="cal-btn" onclick="reset()">clear</button>
+  <button style="background: YellowGreen ;border-color: Green ;" type="button" id="convert" class="cal-btn" onclick="convertTemperature()">convert</button>
+      
+      <div class="result_area">
+        <label for="">Answer:</label>
+        <input type="number" value="" id="result">
+
+
+      </div>
+    </form>
+  </div>
+  <script src="Temperature.js"></script>
+</body>
+<html>

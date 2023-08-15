@@ -1,0 +1,123 @@
+body{
+	background-image: url(bg1.png);
+	}
+    
+}
+
+.display {
+    
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 150px;
+    
+}
+
+.temp_calculator {
+    width: 500px;
+    margin: 130px auto;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#87CEEB,#FFB6C1);
+    color: black; 
+}
+form {
+    padding: 15px;
+}
+h4.title {
+    font-family: Lucida Console;
+    background: linear-gradient(to right, SeaGreen 1%, black 100%);
+    text-transform: uppercase;
+    font-size: 25px;
+    color: yellow;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+.calculator_input {
+    float: left;
+}
+label {
+    font-size: 18px;
+    font-family: Verdana;
+}
+input {
+    width: 100%;
+    height:25px;
+    font-size: 20px;
+    font-family: Copperplate ;
+    border: 2px solid black;
+    border-radius: 4px;
+    background: white;
+    
+}
+.result_area label {
+    width: 18%;
+    float: left;
+}
+.result_area input {
+	width: 82%;
+	
+}
+.calculator_value label {
+    width:50%;
+    float: left;
+    
+}
+.calculator_value input {
+    width: 50%;
+    font-size: 18px;
+    
+    
+	
+}
+.calculator_value {
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+.calculator_input_from {
+    float: left;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: Verdana;
+    
+}
+.calculator_input_to {
+    float: right;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: Verdana;
+    
+}
+
+
+
+.result_area {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+button#convert {
+    float: right;
+}
+button.cal-btn {
+    font-family: lucida console;
+    font-size: 18px;
+    width: 45%;
+    height: 40px;
+    padding: 12px;
+    border: 3px offset;
+    border-radius: 30px 30px 30px 0px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+cal-btn:active {
+  transform: translateY(3px);
+   
+}
+select {
+    padding: 5px;
+}
+
